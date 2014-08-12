@@ -34,7 +34,7 @@
 	.s-container{width: 960px;}
 	.team-box{width: 960px; margin: auto;}
 	.sl-element{width: 192px;}
-	.team-grid{width: 574px !important;}
+	.team-grid{width: 465px !important;}
 	.t-element:nth-child(2),.t-element:nth-child(4),.t-element:nth-child(6),.t-element:nth-child(8),.t-element:nth-child(10) {margin-right: 0;}
 	.t-element{margin-bottom: 30px;}
 	.menu ul li {padding: 0 15px; font-size: 13px;}
@@ -88,15 +88,15 @@
 	.foot-third {width: 320px; padding: 0 0 0 30px;}
 	.foot-third:last-child {margin-top: 50px; width: 640px; padding: 0 30px;}
 	.bottom-line{width: 700px;}
-	.milestone-details{font-size: 15px; padding: 0px 0 100px;}
-	.s-info span {font-size: 17px;}
 	.sl-element{width: 200px;}
-	.t-element {margin-bottom: 30px;}
+	.t-element{width: 234px;}
 	.team-grid{width: 574px !important;}
 	.t-element:nth-child(2),.t-element:nth-child(4),.t-element:nth-child(6),.t-element:nth-child(8),.t-element:nth-child(10) {margin-right: 0;}
 	.main-title {font-size: 50px;}
 	.main-title span {top: 100px;}
 	.title .two{width:500px;}
+	.title.three{width:500px;}
+
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -122,7 +122,8 @@
 	.prev-featured{margin-right: 30px;}
 	.nav-featured{width: 311px;}
 	.title.one{font-size: 40px; padding: 80px 40px 11px;}
-	.title.two{font-size: 16px; padding: 0px 40px; width: auto;}
+	.title.two{font-size: 16px; padding: 0px 140px; width: auto;}
+	.title.three{font-size: 16px; padding: 0; width: auto;}
 	.caroussel{width: 400px; height: 270px;}
 	.p-info{width: 400px;}
 	.caroussel img{width: 400px; height: auto; margin-left:0;}
@@ -152,6 +153,7 @@
 	.main-title {font-size: 25px;}
 	.main-title span {top: 70px;}
 	.logo {font-size: 23px;}
+	.foot-full{width: auto;padding: 0 0 30px 128px;}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -171,6 +173,7 @@
 	.menu{display: none;}
 	.title.one{font-size: 19px; padding: 50px 40px 50px; width: auto;}
 	.title.two{font-size: 14px; padding: 0px 55px; width: auto;}
+	.title.three{font-size: 14px;padding: 0px 55px;width: auto;}
 	.caroussel{width: 300px; height: 220px; margin-left:0;}
 	.p-info{width: 300px;}
 	.caroussel img{width: 300px; height: auto;}
@@ -187,9 +190,9 @@
 	.img-item {display: none;}
 	.foot-full{
 		width: auto;
-		padding: 0 0 30px 0px;
+		padding: 0 0 30px 128px;
 	}
-	.footer-container {width: 300px;}
+	.footer-container {width: 320px;}
 	.foot-third{float: none; width: 100%; padding: 0; margin-top: 50px;}
 	.foot-third:first-child{margin-top: 0;}
 	.s-element{width: 300px;}
