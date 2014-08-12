@@ -9,13 +9,13 @@
 /* Smaller than 1180 (devices and browsers) */
 @media only screen and (min-width: 976px) and (max-width: 1258px) {
 	.full{width: 960px;}
-	.half{width: 385px; padding-bottom: 100px;}
+	.half{width: 410px; padding-bottom: 100px;}
+	.half:last-child{padding: 40px 25px 120px 25px;}
 	.caroussel{width: 370px; height: 278px;}
 	.caroussel img{width: 370px; height: auto;}
 	.s-element{width: 320px;}
 	.f-element{width: 240px;}
 	.highlight {font-size: 75px;}
-	.car-quote{width: 370px;}
 	.caroussel-2{width: 370px; height: 270px;}
 	.q-spacer{margin: 20px 0;}
 	.logos{width: 900px; margin: 70px auto 220px}
@@ -79,8 +79,6 @@
 	.f-ico {margin: 0 auto;}
 	.highlight{font-size: 40px;}
 	.s-info{margin-bottom: 50px;}
-	.project-content {width: 700px;}
-	.project-content img{width: 700px;}
 	.img-spacer{width: 700px; margin-top: 150px;}
 	.img-spacer img{width: 700px;}
 	.img-item{top: -80px;}
@@ -94,9 +92,10 @@
 	.t-element:nth-child(2),.t-element:nth-child(4),.t-element:nth-child(6),.t-element:nth-child(8),.t-element:nth-child(10) {margin-right: 0;}
 	.main-title {font-size: 50px;}
 	.main-title span {top: 100px;}
-	.title .two{width:500px;}
+	.title.two{width:500px;}
 	.title.three{width:500px;}
-
+	.foot-full{width: auto;padding: 0 0px 50px 40px;}
+	.outer-box{padding: 40px 102px 0 112px;}
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -108,6 +107,7 @@
 	.show {width: 385px;}
 	.main-title ul{ margin-top:0; height:80px; font-size: 14px;}
 	.main-title .spacer{ margin:20px auto;}
+	.foot-full{width: auto;padding: 0 0px 50px 190px;}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -115,15 +115,16 @@
 	.main-title .second-title{ width:345px;}
 	.full{width: 466px;}
 	.half{float: none; margin: auto; width: 400px; padding: 80px 40px 120px;}
-	.half-content{font-size: 16px;}
+	.half-content{font-size: 14px;}
 	.half:first-child{padding-bottom: 0px;}
 	.content .full .half{ padding-left:0; padding-right:0;}
 	.next-featured{margin-left: 30px;}
 	.prev-featured{margin-right: 30px;}
 	.nav-featured{width: 311px;}
 	.title.one{font-size: 40px; padding: 80px 40px 11px;}
-	.title.two{font-size: 16px; padding: 0px 140px; width: auto;}
-	.title.three{font-size: 16px; padding: 0; width: auto;}
+	.title.two{width:400px; font-size: 15px;}
+	.outer-box{padding:40px 44px 0 44px;}
+	.title.three{font-size: 16px; padding: 5px; width: auto;}
 	.caroussel{width: 400px; height: 270px;}
 	.p-info{width: 400px;}
 	.caroussel img{width: 400px; height: auto; margin-left:0;}
@@ -138,7 +139,6 @@
 	.bottom-line{width: 400px;}
 	.project-content{width: 400px;}
 	.project-content img{width: 400px;}
-	.logos{width: 400px; margin: 70px auto 50px;}
 	.img-spacer{width: 400px; margin-top: 50px;}
 	.img-spacer img{width: 400px;}
 	.img-item {top: 10px;}
@@ -153,7 +153,8 @@
 	.main-title {font-size: 25px;}
 	.main-title span {top: 70px;}
 	.logo {font-size: 23px;}
-	.foot-full{width: auto;padding: 0 0 30px 128px;}
+	.foot-full{width: auto;padding: 0 0px 50px 44px;}
+
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -172,8 +173,9 @@
 	.prev-featured{margin-right: 30px;}
 	.menu{display: none;}
 	.title.one{font-size: 19px; padding: 50px 40px 50px; width: auto;}
-	.title.two{font-size: 14px; padding: 0px 55px; width: auto;}
+	.title.two{font-size: 14px; padding: 0px 0px; width: 300px;}
 	.title.three{font-size: 14px;padding: 0px 55px;width: auto;}
+	.outer-box{padding:40px 54px 0 54px;}
 	.caroussel{width: 300px; height: 220px; margin-left:0;}
 	.p-info{width: 300px;}
 	.caroussel img{width: 300px; height: auto;}
@@ -188,10 +190,7 @@
 	.img-spacer{width: 300px; margin-top: 0;}
 	.img-spacer img{width: 300px;}
 	.img-item {display: none;}
-	.foot-full{
-		width: auto;
-		padding: 0 0 30px 128px;
-	}
+	.foot-full{width: auto;padding: 0 0 30px 0px;}
 	.footer-container {width: 320px;}
 	.foot-third{float: none; width: 100%; padding: 0; margin-top: 50px;}
 	.foot-third:first-child{margin-top: 0;}
@@ -205,7 +204,7 @@
 	.main-title {font-size: 8px;}
 	.welcome{ font-size:13px;}
 	.main-title span {top: 100px;}
-	.f-data{font-size: 14px; margin: 0 auto;}
+	.f-data{font-size: 12px; margin: 0 auto;}
 	.p-title-one{ padding-top:40px;}
 	.scrollup{display: none !important;}
 	.f-title-one{ text-align:center;}
